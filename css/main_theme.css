@@ -1,0 +1,208 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2016-12-04 08:55:07
+ * @version $Id$
+ */
+body{
+		padding:0px;
+		margin: 0px;
+	}
+#all{
+	width: 800px;
+	margin: 0 auto;
+}
+#myself{
+		background-image: url("../images/all_02.png");
+		width: 800px;
+		height: 120px;
+
+	}
+	#myself>#life{
+		margin-top:20px;
+		margin-left: 300px;
+	}
+	/*注册*/
+	#zz{
+		float: right;
+		margin-top: -22px;
+	}
+	#Lshow{
+		margin: 0px auto;
+		width: 600px;
+		margin-left:200px; 
+		
+	}
+	#SNumber{
+		height: 20px;
+		background-color: silver;
+		
+	}
+	.number{
+		width: 18px;
+		height: 18px;
+		background-color: purple;
+		float: left;
+		margin-left: 10px;
+		color:white;
+		cursor:pointer;
+		font-size: 12px;
+	}
+	.over{
+		width: 200px;
+		height: 18px;
+		background-color: white;
+		float: left;
+		margin-left: 10px;
+		color:black;
+		cursor:pointer;
+		text-align: center;
+		font-size: 12px;
+	}
+
+	/*个人资料*/
+	#info{
+		position: absolute;
+		top:148px;
+	}
+	/*导航*/
+	#menu{
+		margin: 0 auto;
+		width: 800px;
+	
+		background-color: #eee;
+	}
+	ul{
+		list-style-type: none;
+	}
+	ul>li{
+		float: left;
+		width:130px;
+		height: 33px;
+		background-color: #eee;
+		margin-left: 8px;
+		text-align: center;
+		line-height: 40px;
+		font-size: 13px;
+		color: darkviolet;
+	}
+	li:hover{
+		cursor: pointer;
+	}
+	p{
+		text-align: center;
+	}
+	/*特定的选择内容----个人*/
+	#myinfo{
+		height: 400px;
+		padding-top:50px;
+	}
+	#myinfo>h1{
+		text-align: center;
+	}
+	#myinfo>table{
+		margin:0 auto;		
+		align:center;
+		color: #00F;
+	}
+
+/*学校*/
+#sy,#subject,#div1,#entertainment{
+	display: none;
+}
+#sy>img{
+	width: 800px;
+	height:450px;
+}
+/*课程*/
+#subject>table{
+		margin:0 auto;		
+		align:center;
+		color: #00F;
+}
+/*社团活动*/
+#div1{
+	width: 800px;
+
+}
+#div1>img{
+	margin:0 auto;
+	width: 570px;
+	height: 400px;
+}
+#div2 img{
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin-left: 80px;
+}
+ .alpha{
+ 		filter: alpha(Opacity=20);
+		opacity: 0.2;
+ }
+
+ /*娱乐、兴趣爱好*/
+ #entertainment{
+ 	width: 800px;
+ 	height: 500px;
+ 	position: relative;
+ 	overflow: hidden;
+ }
+ .a{
+ 	width: 740px;
+ 	height: 70px;
+ 	left: -500px;
+ 	position: absolute;
+ 	background: url('../images/a.png') repeat-x 0 0;
+ }
+  .b{
+ 	width: 200px;
+ 	height: 70px;
+ 	top:30px;
+ 	left: -500px;
+ 	position: absolute;
+ 	background: url('../images/b.png') no-repeat 0 0;
+ }
+  .c{
+ 	width: 200px;
+ 	height: 70px;
+ 	top: 60px;
+ 	left: -550px;
+ 	position: absolute;
+ 	background: url('../images/c.png') no-repeat 0 0;
+ }
+  .zb{
+ 	width: 200px;
+ 	height:200px;
+ 	top: 200px;
+ 	left: -250px;
+ 	position: absolute;
+ 	background: url('../images/zb.jpg') no-repeat 0 0;
+ }
+   .fk{
+ 	width: 200px;
+ 	height:200px;
+ 	top: 200px;
+ 	left: -250px;
+ 	position: absolute;
+ 	background: url('../images/fk.jpg') no-repeat 0 0;
+ }
+   .yl{
+ 	width: 200px;
+ 	height:200px;
+ 	top: 200px;
+	left: -250px;
+ 	position: absolute;
+ 	background: url('../images/yl.jpg') no-repeat 0 0;
+ }
+ /*footer*/
+#footer{
+	background-image: url("../images/all_04.png");
+		width: 800px;
+		height: 86px;
+}
+#footer>img{
+	margin-left: 280px;
+	margin-top: 10px;
+}

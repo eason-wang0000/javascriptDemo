@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2016-12-04 14:35:25
+ * @version $Id$
+ */
+	
+	body{
+ 		background: url(../images/sy.jpg) no-repeat 0 0;
+ 		background-size:100% ;
+ 	}
+	#form1{
+		width: 800px;
+		margin: 0 auto;
+	}
+	h1{
+		margin-left: 100px;
+	}
+	#zs{
+		margin-left: 70px;
+	}
+	#zc{
+		margin-left: 90px;
+	}
+	input{
+		height: 20px;
+	}
